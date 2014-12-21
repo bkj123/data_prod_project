@@ -34,3 +34,6 @@ note: values can be typed into each input box or they can be incremented with th
 3. View the calculated monthly payment amount under the Output heading above
 
 --- .class #id 
+<h1>Example</h1>
+A $150,000 loan amount at 6% annual interest over 15 years (180 months) has a monthly payment of $1,265.79
+
