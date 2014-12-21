@@ -93,10 +93,18 @@ note: values can be typed into each input box or they can be incremented with th
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h1>Example</h1>
+    <h1>Calculation Example</h1>
   </hgroup>
   <article data-timings="">
-    <p>A $150,000 loan amount at 6% annual interest over 15 years (180 months) has a monthly payment of $1,265.79</p>
+    <p>A $150,000 loan amount at 6% annual interest over 15 years (180 months) has a monthly payment of $1,265.79.</p>
+
+<p>The R code below shows how this is calculated:</p>
+
+<pre><code class="r">150000*(1+.005)^180*(.005)/((1.005)^180-1)
+</code></pre>
+
+<pre><code>## [1] 1265.785
+</code></pre>
 
   </article>
   <!-- Presenter Notes -->
@@ -126,7 +134,7 @@ note: values can be typed into each input box or they can be incremented with th
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Example'>
+        data-slide=4 title='Calculation Example'>
          4
       </a>
     </li>
